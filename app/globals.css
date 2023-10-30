@@ -1,0 +1,10 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+
+@media (prefers-color-scheme: dark) {
+  /* Dark Mode Styles */
+  @import 'tailwindcss/utilities';
+}
+
+/* Light Mode Styles */
+@import 'tailwindcss/utilities';
